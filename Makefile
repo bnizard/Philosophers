@@ -14,9 +14,9 @@ NAME =			philo
 
 CC =			gcc $(FLAGS) $(INCLUDES)
 
-LIBFT =			-L/Volumes/Data/nfs/zfs-student-5/users/2013/bnizard/.brew/lib -lSDLmain -lSDL -Wl,-framework,Cocoa 
+LIBFT =			-L/Volumes/Data/nfs/zfs-student-2/users/2013/bnizard/.brew/lib -lSDLmain -lSDL -Wl,-framework,Cocoa 
 
-INCLUDES =		-I/Volumes/Data/nfs/zfs-student-5/users/2013/bnizard/.brew/include -D_GNU_SOURCE=1 -D_THREAD_SAFE 
+INCLUDES =		-I/Volumes/Data/nfs/zfs-student-2/users/2013/bnizard/.brew/include -D_GNU_SOURCE=1 -D_THREAD_SAFE 
 
  SRC =			main.c init.c print.c draw.c ft_putchar.c ft_putnbr.c
 
